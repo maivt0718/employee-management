@@ -35,8 +35,9 @@ $.renderEmployee = (arr=totalEmployees) => {
                 </div>
         </tr>
         `;
-    $("#tableDanhSach").html(content);
+    
   });
+  $("#tableDanhSach").html(content);
 };
 
 $.getInfo = () => {
